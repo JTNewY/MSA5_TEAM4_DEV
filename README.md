@@ -2,4 +2,6 @@
 
 미니프로젝트 4조
 
-![Uploading IMG_1034.jpg…]()
+
+
+![300_300_20240229140341_photo1_7c9401c8b746](https://github.com/JTNewY/MSA5_TEAM4_MINI/assets/151705894/df211548-eb25-43f9-930a-d74c10c8270e)
