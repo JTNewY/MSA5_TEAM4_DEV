@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400|Lora");
+/*동영상 삽입때문에 추가한 css*/
+#myVideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  object-fit: cover; /* 동영상이 창 크기에 맞게 확대/축소될 수 있도록 함 */
+}
+/*끝*/
+
+
+/* div box styling */
+.container {
+position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+  background: #1f2c25;
+  width: 650px;
+  height: 400px;
+  position: absolute;
+  top: 25%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pinkbox {
+  position: absolute;
+  top: -10%;
+  left: 5%;
+  background: #332b23;
+  width: 320px;
+  height: 550px;
+  border-radius: 5px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-in-out;
+  z-index: 2;
+}
+
+
+
+.nodisplay {
+  display: none;
+  transition: all 0.5s ease;
+}
+
+.leftbox, .rightbox {
+  position: absolute;
+  width: 50%;
+  transition: 1s all ease;
+  opacity: 0.8;
+}
+
+.leftbox {
+  left: -2%;
+}
+
+.rightbox {
+  right: -2%;
+}
+
+/* font & button styling */
+h1 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 95px;
+  text-transform: uppercase;
+  color: #f6f6f6;
+  font-size: 2em;
+  letter-spacing: 8px;
+}
+
+.title {
+  font-family: "Lora", serif;
+  color: #ffffff;
+  font-size: 1.8em;
+  line-height: 1.1em;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 20%;
+}
+
+.desc {
+  margin-top: -8px;
+}
+
+.account {
+  margin-top: 45%;
+  font-size: 10px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7em;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-align: center;
+}
+
+span {
+  color: #bead9e;
+}
+
+.flower {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 35%;
+    left: 21%;
+}
+
+.smaller {
+  position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 35%;
+    left: 21%;
+
+}
+
+button {
+  padding: 12px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 11px;
+  border-radius: 10px;
+  margin: auto;
+  outline: none;
+  display: block;
+}
+button:hover {
+  background: #beb6a7;
+  color: #050505;
+  transition: background-color 1s ease-out;
+}
+
+.button {
+  margin-top: 3%;
+  background: #f6f6f6;
+  color: #a18982;
+  border: solid 1px #ffffff;
+}
+
+/* form styling */
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 7px;
+}
+
+.more-padding {
+  padding-top: 35px;
+}
+.more-padding input {
+  padding: 12px;
+}
+.more-padding .submit {
+  margin-top: 45px;
+}
+
+.submit {
+  margin-top: 25px;
+  padding: 12px;
+  border-color: #1f2c25;
+}
+.submit:hover {
+  background: #1f2c25;
+  border-color: #ffffff;
+}
+
+input {
+  background: #5c5c5c;
+  width: 65%;
+  color: #1f2c25;
+  border: none;
+  border-bottom: 1px solid rgba(246, 246, 246, 0.5);
+  padding: 9px;
+  margin: 7px;
+}
+input::placeholder {
+  color: #f6f6f6;
+  letter-spacing: 2px;
+  font-size: 1.3em;
+  font-weight: 100;
+}
+input:focus {
+  color: #ffffff;
+  outline: none;
+  border-bottom: 1.2px solid rgba(206, 164, 125, 0.7);
+  font-size: 1em;
+  transition: 0.8s all ease;
+}
+input:focus::placeholder {
+  opacity: 0;
+}
+
+label {
+  font-family: "Open Sans", sans-serif;
+  color: #ceab7d;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+}
+
+.checkbox {
+  display: inline;
+  white-space: nowrap;
+  position: relative;
+  left: -62px;
+  top: 5px;
+}
+
+.check1 {
+	position: relative;
+	right: 150px;
+}
+
+
+input[type=checkbox] {
+  width: 7px;
+  background: #ffffff;
+}
+
+
+.checkbox input[type=checkbox]:checked + label {
+  color: #ffffff;
+  transition: 0.5s all ease;
+}
+
+.checkbox input[type=radio]:checked + label {
+  color: #ffffff;
+  transition: 0.5s all ease;
+}
