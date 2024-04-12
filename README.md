@@ -1,4 +1,4 @@
-# MSA5_TEAM4_MINI
+# MSA5_TEAM4_DEV
 
 미니프로젝트 4조
 
