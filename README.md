@@ -1,4 +1,4 @@
-#**DE{V}HAT**
+# **DE{V}HAT**
 
 ![Untitled](https://github.com/JTNewY/MSA5_TEAM4_DEV/assets/151705894/6a7bef50-0496-4580-8cd4-0614a4bc50ec)
 
